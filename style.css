@@ -1,0 +1,98 @@
+body {
+    background-size: cover;
+}
+
+.btn-info {
+    width: 70%;
+    font-size: 23px;
+    cursor: not-allowed;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.btn-primary,
+.btn-warning {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: blue;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.btn-warning:hover {
+    background-color: white;
+    color: rgb(255, 153, 0);
+    width: 100px;
+    border-radius: 10px;
+}
+
+.login_div {
+    background: rgba(209, 242, 255, 0.87);
+    float: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: #ddd;
+    border-left: 3px;
+}
+
+.form-group h3 {
+    color: blue;
+    font-family: 'New Tegomin', serif;
+}
+
+#name,
+#password {
+    border: 3px solid rgb(121, 179, 255);
+    border-radius: 10px;
+}
+
+#name:hover,
+#password:hover {
+    border: 3px solid rgb(0, 110, 255);
+    border-radius: 10px;
+}
+
+.about {
+    color: rgb(177, 204, 255);
+}
+
+.updates {
+    color: rgb(50, 255, 152);
+    height: 600px;
+}
+
+.updates h4 {
+    color: rgb(177, 204, 255);
+}
+
+.container {
+    color: rgb(177, 204, 255);
+}
+
+.error {
+    color: red;
+}
+
+.img-responsive {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.crake {
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.dev {
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
